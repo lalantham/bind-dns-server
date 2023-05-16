@@ -9,7 +9,7 @@ This script automate the process of installing Bind DNS Server on Your Ubuntu VP
 # Command Install
 Copy this code & paste in your vps terminal
 ```
-wget -q https://raw.githubusercontent.com/lalantham/openvpn-access-server/main/script.sh && chmod +x script.sh && ./script.sh
+wget -q https://raw.githubusercontent.com/lalantham/bind-dns-server/main/script.sh && ./script.sh
 ```
 
 # Contact
