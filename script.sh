@@ -115,6 +115,7 @@ echo "$content" | sudo tee /etc/bind/db.$domain > /dev/null
 # netfilter-persistent save
 
 # Restart Service
+chmod 644 /etc/bind/named.conf.options
 systemctl restart bind9
 
 # Creating Zone File
