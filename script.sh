@@ -57,7 +57,7 @@ temp_file=$(mktemp)
 echo "$options_content" > "$temp_file"
 
 # Override the named.conf.options file
-sudo mv "$temp_file" /etc/bind/named.conf.options
+mv "$temp_file" /etc/bind/named.conf.options
 
 
 # Editing Config File
